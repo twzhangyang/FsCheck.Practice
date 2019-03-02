@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace FsCheck.QuickStart.CSharpExamples
+namespace FsCheck.QuickStart
 {
     class Program
     {

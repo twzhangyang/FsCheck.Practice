@@ -2,6 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
+        <AssemblyName>FsCheck.QuickStart.Xunit.CSharp</AssemblyName>
+        <RootNamespace>FsCheck.QuickStart.Xunit.CSharp</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

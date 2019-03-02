@@ -7,9 +7,14 @@
         <GenerateProgramFile>false</GenerateProgramFile>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <WarningLevel>1</WarningLevel>
+    </PropertyGroup>
+
     <ItemGroup>
-        <Compile Include="Tests.fs" />
-        <Compile Include="Program.fs" />
+        <Compile Include="ChoseProperties.fs" />
+        <Compile Include="GenerationExample.fs" />
+        <Compile Include="QuickStart.fs" />
     </ItemGroup>
 
     <ItemGroup>

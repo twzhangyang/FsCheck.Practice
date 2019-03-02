@@ -1,11 +1,7 @@
-﻿using System;
-using System.Linq;
-using Xunit;
-using FsCheck;
+﻿using System.Linq;
 using FsCheck.Xunit;
 
-
-namespace FsCheck.QuickStart.CSharp
+namespace FsCheck.QuickStart.Xunit.CSharp
 {
     public class QuickStart 
     {

@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FsCheck.QuickStart.CSharp", "src\FsCheck.QuickStart.CSharp\FsCheck.QuickStart.CSharp.csproj", "{F38ECEB0-9DE9-4587-B44D-31BF46BEC473}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuickStart", "QuickStart", "{E109C71A-9845-4848-BD64-3E7816FE6371}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsCheck.QuickStart.FSharp", "src\FsCheck.QuickStart.FSharp\FsCheck.QuickStart.FSharp.fsproj", "{E743C74F-29E4-45BE-81A2-721AF703121D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FsCheck.QuickStart", "src\FsCheck.QuickStart\FsCheck.QuickStart.csproj", "{AF65FEC5-6489-4D82-BFE9-D5B5D0A03EE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FsCheck.QuickStart.CSharpExamples", "src\FsCheck.QuickStart.CSharpExamples\FsCheck.QuickStart.CSharpExamples.csproj", "{8D685B99-2C53-4620-BBC3-ADEDB707143E}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsCheck.XUnit.QuickStart.FSharp", "src\FsCheck.XUnit.QuickStart.FSharp\FsCheck.XUnit.QuickStart.FSharp.fsproj", "{32D61ED3-4BD3-4859-804D-0DEEFA5BE013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FsCheck.XUnit.QuickStart.CSharp", "src\FsCheck.XUnit.QuickStart.CSharp\FsCheck.XUnit.QuickStart.CSharp.csproj", "{BFC48496-8434-4B6E-A50D-EAD03B165F3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,22 +14,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F38ECEB0-9DE9-4587-B44D-31BF46BEC473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F38ECEB0-9DE9-4587-B44D-31BF46BEC473}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F38ECEB0-9DE9-4587-B44D-31BF46BEC473}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F38ECEB0-9DE9-4587-B44D-31BF46BEC473}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E743C74F-29E4-45BE-81A2-721AF703121D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E743C74F-29E4-45BE-81A2-721AF703121D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E743C74F-29E4-45BE-81A2-721AF703121D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E743C74F-29E4-45BE-81A2-721AF703121D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D685B99-2C53-4620-BBC3-ADEDB707143E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D685B99-2C53-4620-BBC3-ADEDB707143E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D685B99-2C53-4620-BBC3-ADEDB707143E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D685B99-2C53-4620-BBC3-ADEDB707143E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF65FEC5-6489-4D82-BFE9-D5B5D0A03EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF65FEC5-6489-4D82-BFE9-D5B5D0A03EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF65FEC5-6489-4D82-BFE9-D5B5D0A03EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF65FEC5-6489-4D82-BFE9-D5B5D0A03EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D61ED3-4BD3-4859-804D-0DEEFA5BE013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D61ED3-4BD3-4859-804D-0DEEFA5BE013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D61ED3-4BD3-4859-804D-0DEEFA5BE013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D61ED3-4BD3-4859-804D-0DEEFA5BE013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC48496-8434-4B6E-A50D-EAD03B165F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC48496-8434-4B6E-A50D-EAD03B165F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC48496-8434-4B6E-A50D-EAD03B165F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC48496-8434-4B6E-A50D-EAD03B165F3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F38ECEB0-9DE9-4587-B44D-31BF46BEC473} = {E109C71A-9845-4848-BD64-3E7816FE6371}
-		{E743C74F-29E4-45BE-81A2-721AF703121D} = {E109C71A-9845-4848-BD64-3E7816FE6371}
-		{8D685B99-2C53-4620-BBC3-ADEDB707143E} = {E109C71A-9845-4848-BD64-3E7816FE6371}
+		{AF65FEC5-6489-4D82-BFE9-D5B5D0A03EE3} = {E109C71A-9845-4848-BD64-3E7816FE6371}
+		{32D61ED3-4BD3-4859-804D-0DEEFA5BE013} = {E109C71A-9845-4848-BD64-3E7816FE6371}
+		{BFC48496-8434-4B6E-A50D-EAD03B165F3C} = {E109C71A-9845-4848-BD64-3E7816FE6371}
 	EndGlobalSection
 EndGlobal

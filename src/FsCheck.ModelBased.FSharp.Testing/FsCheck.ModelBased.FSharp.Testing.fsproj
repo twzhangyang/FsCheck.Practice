@@ -5,11 +5,12 @@
 
         <IsPackable>false</IsPackable>
         <GenerateProgramFile>false</GenerateProgramFile>
+        <OutputType>Library</OutputType>
     </PropertyGroup>
 
     <ItemGroup>
         <Compile Include="Counter.fs" />
-        <Compile Include="Program.fs" />
+        <Compile Include="CounterExperimental.fs" />
     </ItemGroup>
 
     <ItemGroup>

@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2fe55cb-70eb-4df6-b10a-3c307e8e2a96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/Counter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpec.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpecTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/IncCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Counter.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/LIstExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/CounterExperimental.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FsCheck.Practice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FsCheck.Practice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FsCheck.Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FsCheck.Practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FsCheck.Practice/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FsCheck.Practice/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FsCheck.Practice.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FsCheck.Practice.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/FsCheck.XUnit.QuickStart.CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/FsCheck.XUnit.QuickStart.CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/QuickStart.fs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/QuickStart.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/FsCheck.ModelBased.FSharp.Testing.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/FsCheck.ModelBased.FSharp.Testing.fsproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Program.fs" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,31 +69,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Counter.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="582">
+              <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding>
-                <marker date="1551772551855" expanded="true" signature="64:1383" ph=" = ..." />
-                <marker date="1551772551855" expanded="true" signature="102:354" ph=") = ..." />
-                <marker date="1551772551855" expanded="true" signature="368:1284" ph=" = ..." />
-                <marker date="1551772551855" expanded="true" signature="386:726" ph=" = { new Command&lt;Counter, int&gt;() with ..." />
-                <marker date="1551772551855" expanded="true" signature="743:1082" ph=" = { new Command&lt;Counter, int&gt;() with ..." />
-                <marker date="1551772551855" expanded="true" signature="1129:1284" ph=" with ..." />
-                <marker date="1551772551855" expanded="true" signature="1335:1383" ph=" = ..." />
+                <marker date="1551773778115" expanded="true" signature="64:1384" ph=" = ..." />
+                <marker date="1551773778115" expanded="true" signature="102:354" ph=") = ..." />
+                <marker date="1551773778115" expanded="true" signature="368:1285" ph=" = ..." />
+                <marker date="1551773778115" expanded="true" signature="386:726" ph=" = { new Command&lt;Counter, int&gt;() with ..." />
+                <marker date="1551773778115" expanded="true" signature="743:1083" ph=" = { new Command&lt;Counter, int&gt;() with ..." />
+                <marker date="1551773778115" expanded="true" signature="1130:1285" ph=" with ..." />
+                <marker date="1551773778115" expanded="true" signature="1336:1384" ph=" = ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/CounterExperimental.fs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+              <folding>
+                <marker date="1551775433372" expanded="true" signature="71:1719" ph="= ..." />
+                <marker date="1551775433372" expanded="true" signature="82:119" ph="..." />
+                <marker date="1551775433372" expanded="true" signature="138:470" ph="?inital:int) = ..." />
+                <marker date="1551775433372" expanded="true" signature="220:289" ph=" = ..." />
+                <marker date="1551775433372" expanded="true" signature="492:1656" ph=" = ..." />
+                <marker date="1551775433372" expanded="true" signature="510:837" ph=" = ..." />
+                <marker date="1551775433372" expanded="true" signature="556:837" ph=" with ..." />
+                <marker date="1551775433372" expanded="true" signature="646:789" ph=" = ..." />
+                <marker date="1551775433372" expanded="true" signature="879:1265" ph=" = ..." />
+                <marker date="1551775433372" expanded="true" signature="925:1265" ph=" with ..." />
+                <marker date="1551775433372" expanded="true" signature="1002:1030" ph=" = ..." />
+                <marker date="1551775433372" expanded="true" signature="1075:1217" ph=" = ..." />
+                <marker date="1551775433372" expanded="true" signature="1309:1468" ph=" = ..." />
+                <marker date="1551775433372" expanded="true" signature="1351:1468" ph=" with ..." />
+                <marker date="1551775433372" expanded="true" signature="1514:1656" ph=" with ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Program.fs">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/b4/a19b75f4/Machine`2.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1551769042830" expanded="true" signature="0:47" ph="module Program = let [&lt;EntryPoint&gt;] main _ = 0 ..." />
-              </folding>
+            <state relative-caret-position="526">
+              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -126,25 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/Counter.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <marker date="1551752239614" expanded="true" signature="43:520" ph="{...}" />
-                <marker date="1551752239614" expanded="true" signature="70:518" ph="{...}" />
-                <marker date="1551752239614" expanded="true" signature="127:172" ph="{...}" />
-                <marker date="1551752239614" expanded="true" signature="199:374" ph="{...}" />
-                <marker date="1551752239614" expanded="true" signature="233:290" ph="{...}" />
-                <marker date="1551752239614" expanded="true" signature="307:364" ph="{...}" />
-                <marker date="1551752239614" expanded="true" signature="400:443" ph="{...}" />
-                <marker date="1551752239614" expanded="true" signature="472:512" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -196,24 +193,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/fb/2db41f93/SeqModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/21/df80099f/Check.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850DE-DCA6-A898-A745-0383DE50E85B/82/a28dd055/PropertyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/22/7ed7e7ef/Config.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/58/0e5088e2/Prop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/53/df5bd505/PropertyExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpec.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/LIstExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/Counter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.QuickStart/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/IncCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpecTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/fb/2db41f93/SeqModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/d3/ea68719b/Arb.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/21/df80099f/Check.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850DE-DCA6-A898-A745-0383DE50E85B/82/a28dd055/PropertyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Program.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/CounterExperimental.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/QuickStart.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/bc/536a80b9/Gen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/22/7ed7e7ef/Config.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/58/0e5088e2/Prop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/b4/a19b75f4/Machine`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/GenerationExample.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/53/df5bd505/PropertyExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpec.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/LIstExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/95/9f952ef2/Operators.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Counter.fs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -240,6 +238,7 @@
         <option value="$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpec.cs" />
         <option value="$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpecTests.cs" />
         <option value="$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Counter.fs" />
+        <option value="$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/CounterExperimental.fs" />
       </list>
     </option>
   </component>
@@ -378,12 +377,12 @@
       <workItem from="1551499078264" duration="42000" />
       <workItem from="1551499140949" duration="14530000" />
       <workItem from="1551534190264" duration="1278000" />
-      <workItem from="1551751328730" duration="6101000" />
+      <workItem from="1551751328730" duration="7824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21951000" />
+    <option name="totallyTimeSpent" value="23674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,8 +395,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1920" height="1177" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19222577" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19222577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -416,7 +416,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.21935484" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.3281106" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.3281106" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -613,44 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Program.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1551769042830" expanded="true" signature="0:47" ph="module Program = let [&lt;EntryPoint&gt;] main _ = 0 ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Tests.fs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpec.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <marker date="1551752901904" expanded="true" signature="43:402" ph="{...}" />
-            <marker date="1551752901904" expanded="true" signature="107:400" ph="{...}" />
-            <marker date="1551752901904" expanded="true" signature="171:291" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/GenerationExample.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-655">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <marker date="1551530587392" expanded="true" signature="74:1685" ph=" = ..." />
-            <marker date="1551530587392" expanded="true" signature="1708:2820" ph=" = ..." />
-            <marker date="1551530587392" expanded="true" signature="2709:2787" ph="//  [0; 42; 63; 73; 78; 81; 82] ..." />
-            <marker date="1551530587392" expanded="true" signature="2825:2916" ph="//  [0; 41; 61; 71; 76; 79; 80] ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,18 +644,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/GenerationExample.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-655">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <marker date="1551530587392" expanded="true" signature="74:1685" ph=" = ..." />
+            <marker date="1551530587392" expanded="true" signature="1708:2820" ph=" = ..." />
+            <marker date="1551530587392" expanded="true" signature="2709:2787" ph="//  [0; 42; 63; 73; 78; 81; 82] ..." />
+            <marker date="1551530587392" expanded="true" signature="2825:2916" ph="//  [0; 41; 61; 71; 76; 79; 80] ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Program.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpec.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1551752901904" expanded="true" signature="43:402" ph="{...}" />
+            <marker date="1551752901904" expanded="true" signature="107:400" ph="{...}" />
+            <marker date="1551752901904" expanded="true" signature="171:291" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Counter.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        <state relative-caret-position="582">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
           <folding>
-            <marker date="1551772551855" expanded="true" signature="64:1383" ph=" = ..." />
-            <marker date="1551772551855" expanded="true" signature="102:354" ph=") = ..." />
-            <marker date="1551772551855" expanded="true" signature="368:1284" ph=" = ..." />
-            <marker date="1551772551855" expanded="true" signature="386:726" ph=" = { new Command&lt;Counter, int&gt;() with ..." />
-            <marker date="1551772551855" expanded="true" signature="743:1082" ph=" = { new Command&lt;Counter, int&gt;() with ..." />
-            <marker date="1551772551855" expanded="true" signature="1129:1284" ph=" with ..." />
-            <marker date="1551772551855" expanded="true" signature="1335:1383" ph=" = ..." />
+            <marker date="1551773778115" expanded="true" signature="64:1384" ph=" = ..." />
+            <marker date="1551773778115" expanded="true" signature="102:354" ph=") = ..." />
+            <marker date="1551773778115" expanded="true" signature="368:1285" ph=" = ..." />
+            <marker date="1551773778115" expanded="true" signature="386:726" ph=" = { new Command&lt;Counter, int&gt;() with ..." />
+            <marker date="1551773778115" expanded="true" signature="743:1083" ph=" = { new Command&lt;Counter, int&gt;() with ..." />
+            <marker date="1551773778115" expanded="true" signature="1130:1285" ph=" with ..." />
+            <marker date="1551773778115" expanded="true" signature="1336:1384" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/b4/a19b75f4/Machine`2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/CounterExperimental.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+          <folding>
+            <marker date="1551775433372" expanded="true" signature="71:1719" ph="= ..." />
+            <marker date="1551775433372" expanded="true" signature="82:119" ph="..." />
+            <marker date="1551775433372" expanded="true" signature="138:470" ph="?inital:int) = ..." />
+            <marker date="1551775433372" expanded="true" signature="220:289" ph=" = ..." />
+            <marker date="1551775433372" expanded="true" signature="492:1656" ph=" = ..." />
+            <marker date="1551775433372" expanded="true" signature="510:837" ph=" = ..." />
+            <marker date="1551775433372" expanded="true" signature="556:837" ph=" with ..." />
+            <marker date="1551775433372" expanded="true" signature="646:789" ph=" = ..." />
+            <marker date="1551775433372" expanded="true" signature="879:1265" ph=" = ..." />
+            <marker date="1551775433372" expanded="true" signature="925:1265" ph=" with ..." />
+            <marker date="1551775433372" expanded="true" signature="1002:1030" ph=" = ..." />
+            <marker date="1551775433372" expanded="true" signature="1075:1217" ph=" = ..." />
+            <marker date="1551775433372" expanded="true" signature="1309:1468" ph=" = ..." />
+            <marker date="1551775433372" expanded="true" signature="1351:1468" ph=" with ..." />
+            <marker date="1551775433372" expanded="true" signature="1514:1656" ph=" with ..." />
           </folding>
         </state>
       </provider>

@@ -38,9 +38,14 @@ module FsCheck_QuickStart =
         Xunit.Assert.True(true)
     
     [<Xunit.Fact>]    
-    let ``try to use FsCheck``() =
+    let ``try to use FsCheck when test is fine``() =
         let revRevIsOrig (xs:list<int>) = List.rev(List.rev xs) = xs
-        Check.Quick revRevIsOrig 
+        Check.QuickThrowOnFailure revRevIsOrig 
+      
+    [<Xunit.Fact>]
+    let ``try to use FsCheck when test failed``() =
+        let revIsOrig (xs:list<int>) = List.rev xs = xs
+        Check.QuickThrowOnFailure revIsOrig      
 
     [<Property(Verbose=true)>]
     let Commutative x y =

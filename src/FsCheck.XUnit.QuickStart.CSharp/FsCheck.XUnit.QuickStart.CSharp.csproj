@@ -2,12 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
-        <AssemblyName>FsCheck.QuickStart.Xunit.CSharp</AssemblyName>
-        <RootNamespace>FsCheck.QuickStart.Xunit.CSharp</RootNamespace>
+        <AssemblyName>FsCheck.QuickStart.XUnit.CSharp</AssemblyName>
+        <RootNamespace>FsCheck.QuickStart.XUnit.CSharp</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="FsCheck.Xunit" Version="2.13.0" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.0" />
       <PackageReference Include="xunit" Version="2.4.1" />
       <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
     </ItemGroup>

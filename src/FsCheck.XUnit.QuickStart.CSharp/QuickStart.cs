@@ -1,7 +1,8 @@
 ﻿using System.Linq;
 using FsCheck.Xunit;
+using Xunit;
 
-namespace FsCheck.QuickStart.Xunit.CSharp
+namespace FsCheck.QuickStart.XUnit.CSharp
 {
     public class QuickStart 
     {
@@ -15,6 +16,16 @@ namespace FsCheck.QuickStart.Xunit.CSharp
         public bool ReverseIsNotOriginal(int[] xs)
         {
             return xs.Reverse().SequenceEqual(xs);
+        }
+        
+        [Fact]
+        public void QuantifiedProperties()
+        {
+            var orderedList = Arb.From<int[]>()
+                .MapFilter(xs => xs.OrderBy(i => i).ToArray(), xs => xs.IsOrdered());
+
+            Prop.ForAll<int>(x => Prop.ForAll(orderedList, xs => xs.Insert(x).IsOrdered()))
+                .QuickCheckThrowOnFailure();
         }
     }
     

@@ -2,14 +2,44 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.gitignore_global" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.0.0/build/netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="FsCheck.Practice.sln" t="IncludeFlat" />
+      <e p="ModelBasedTesting" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="QuickStart" t="Include" />
+      <e p="src/FsCheck.ModelBased.CSharp.Testing" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Counter.cs" t="Include" />
+        <e p="CounterSpec.cs" t="Include" />
+        <e p="CounterSpecTests.cs" t="Include" />
+        <e p="FsCheck.ModelBased.CSharp.Testing.csproj" t="IncludeRecursive" />
+        <e p="IncCommand.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="FsCheck.ModelBased.CSharp.Testing.AssemblyInfo.cs" t="Include" />
+              <e p="FsCheck.ModelBased.CSharp.Testing.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="src/FsCheck.ModelBased.FSharp.Testing" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Counter.fs" t="Include" />
+        <e p="FsCheck.ModelBased.FSharp.Testing.fsproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.fs" t="Include" />
+      </e>
       <e p="src/FsCheck.QuickStart" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="FsCheck.QuickStart.csproj" t="IncludeRecursive" />
@@ -25,11 +55,11 @@
       <e p="src/FsCheck.XUnit.QuickStart.CSharp" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="FsCheck.Xunit.QuickStart.CSharp.csproj" t="IncludeRecursive" />
+        <e p="LIstExtensions.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
               <e p="FsCheck.Xunit.QuickStart.CSharp.AssemblyInfo.cs" t="Include" />
-              <e p="FsCheck.Xunit.QuickStart.CSharp.Program.cs" t="Include" />
             </e>
           </e>
         </e>

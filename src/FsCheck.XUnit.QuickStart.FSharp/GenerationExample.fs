@@ -1,7 +1,25 @@
 namespace FsCheck.QuickStart.FSharp
 open FsCheck
 
+module Generators =
+    //1. Gen.constant
+    let value1 = Gen.constant("Foo") |> Gen.sample 0 5
+
+    //2. Gen.choose
+    let value2 = Gen.choose(1, 10) |> Gen.sample 0 5 
+
+    //3. Gen.elements
+    Gen.elements [42; 1337; 7; -100; 1453; -273] |> Gen.sample 0 10
+
+    //4. Gen.growingElements
+    Gen.growingElements ['a'; 'b'; 'c'; 'd'; 'e'; 'f'; 'g'; 'h'; 'i'; 'j'] |> Gen.sample 3 10
+
 module GenerationExample =
+    
+    //1. Gen.Constant
+    let constantGen = Gen.constant ("Foo")
+    
+    
     // get the generator for ints
     let intGenerator = Arb.generate<int>
 

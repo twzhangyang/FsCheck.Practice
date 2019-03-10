@@ -54,6 +54,8 @@
       </e>
       <e p="src/FsCheck.XUnit.QuickStart.CSharp" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ChooseProperties.cs" t="Include" />
+        <e p="DollarExample.cs" t="Include" />
         <e p="FsCheck.Xunit.QuickStart.CSharp.csproj" t="IncludeRecursive" />
         <e p="GeneratorExamples.cs" t="Include" />
         <e p="LIstExtensions.cs" t="Include" />
@@ -69,6 +71,7 @@
       <e p="src/FsCheck.XUnit.QuickStart.FSharp" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="ChoseProperties.fs" t="Include" />
+        <e p="DollarExample.fs" t="Include" />
         <e p="FsCheck.XUnit.QuickStart.FSharp.fsproj" t="IncludeRecursive" />
         <e p="GenerationExample.fs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />

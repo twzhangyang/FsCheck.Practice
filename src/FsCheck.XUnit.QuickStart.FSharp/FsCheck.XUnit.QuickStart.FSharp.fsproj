@@ -13,6 +13,7 @@
 
     <ItemGroup>
         <Compile Include="ChoseProperties.fs" />
+        <Compile Include="DollarExample.fs" />
         <Compile Include="GenerationExample.fs" />
         <Compile Include="QuickStart.fs" />
     </ItemGroup>

@@ -6,6 +6,17 @@ namespace FsCheck.QuickStart.XUnit.CSharp
 {
     public class QuickStart 
     {
+        private int Add(int x, int y)
+        {
+            return x + y;
+        }
+        
+        [Property]
+        public bool Commutative(int x, int y)
+        {
+            return Add(x, y) == Add(y, x);
+        }
+        
         [Property(QuietOnSuccess = true, Verbose = true)]
         public bool ReverseReverseIsOriginal(int[] xs)
         {

@@ -2,24 +2,45 @@ namespace FsCheck.QuickStart.FSharp
 open FsCheck
 
 module Generators =
+    open System
+
     //1. Gen.constant
-    let value1 = Gen.constant("Foo") |> Gen.sample 0 5
+    let value1 = Gen.constant ("Foo") |> Gen.sample 0 5
 
     //2. Gen.choose
-    let value2 = Gen.choose(1, 10) |> Gen.sample 0 5 
+    let value2 = Gen.choose (1, 10) |> Gen.sample 0 5
 
     //3. Gen.elements
-    Gen.elements [42; 1337; 7; -100; 1453; -273] |> Gen.sample 0 10
+    Gen.elements [ 42; 1337; 7; -100; 1453; -273 ] |> Gen.sample 0 10
 
     //4. Gen.growingElements
-    Gen.growingElements ['a'; 'b'; 'c'; 'd'; 'e'; 'f'; 'g'; 'h'; 'i'; 'j'] |> Gen.sample 3 10
+    Gen.growingElements [ 'a'; 'b'; 'c'; 'd'; 'e'; 'f'; 'g'; 'h'; 'i'; 'j' ] |> Gen.sample 3 10
 
-module GenerationExample =
+    //5. Map
+    Gen.choose (0, 127) |> Gen.map byte |> Gen.sample 0 10
+
+    Gen.choose (1, 3) |> Gen.map (fun i -> DateTime(2019, 11, i).ToString "u") |> Gen.sample 0 10
+
+    //6. ListOf
+    Gen.constant 42 |> Gen.listOf |> Gen.sample 1 10
+
+    //7. NonEmptyListOf
+    Gen.elements ["foo"; "bar"; "baz"] |> Gen.nonEmptyListOf |> Gen.sample 3 4
     
+    //8. Filter
+    Gen.choose (1, 100)
+        |> Gen.two
+        |> Gen.filter (fun (x, y) -> x <> y)
+        |> Gen.map (fun (x, y) -> [x; y])
+        |> Gen.sample 0 10
+    
+    
+module GenerationExample =
+
     //1. Gen.Constant
     let constantGen = Gen.constant ("Foo")
-    
-    
+
+
     // get the generator for ints
     let intGenerator = Arb.generate<int>
 
@@ -79,7 +100,7 @@ module ShrinkExamples =
     let shrink3 = Arb.shrink "abcd" |> Seq.toList
     //  ["bcd"; "acd"; "abd"; "abc"; "abca"; "abcb"; "abcc"; "abad"; "abbd"; "aacd"]
 
-    let shrink4 = Arb.shrink [1; 2; 3]  |> Seq.toList
+    let shrink4 = Arb.shrink [ 1; 2; 3 ] |> Seq.toList
     //  [[2; 3]; [1; 3]; [1; 2]; [1; 2; 0]; [1; 2; 2]; [1; 0; 3]; [1; 1; 3]; [0; 2; 3]]
 
     // silly property to test

@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs" line="8" mnemonic="0" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e2fe55cb-70eb-4df6-b10a-3c307e8e2a96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FsCheck.Practice/.idea/dictionaries/yrzhang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/ChooseProperties.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/DollarExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/DollarExample.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FsCheck.Practice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FsCheck.Practice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FsCheck.Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FsCheck.Practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FsCheck.QuickStart/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FsCheck.QuickStart/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/ChoseProperties.fs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/ChoseProperties.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/FsCheck.XUnit.QuickStart.FSharp.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/FsCheck.XUnit.QuickStart.FSharp.fsproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/GenerationExample.fs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/GenerationExample.fs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,117 +26,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FsCheck.QuickStart/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-              <folding>
-                <marker date="1551882980529" expanded="true" signature="43:410" ph="{...}" />
-                <marker date="1551882980529" expanded="true" signature="63:408" ph="{...}" />
-                <marker date="1551882980529" expanded="true" signature="109:402" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="246">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
-                <marker date="1551536329476" expanded="false" signature="6:52" ph="..." />
-                <marker date="1551536329476" expanded="true" signature="95:856" ph="{...}" />
-                <marker date="1551536329476" expanded="true" signature="126:849" ph="{...}" />
-                <marker date="1551536329476" expanded="true" signature="245:326" ph="{...}" />
-                <marker date="1551536329476" expanded="true" signature="413:484" ph="{...}" />
-                <marker date="1551536329476" expanded="true" signature="551:843" ph="{...}" />
+                <marker date="1552136403956" expanded="true" signature="6:52" ph="..." />
+                <marker date="1552136403956" expanded="true" signature="95:1086" ph="{...}" />
+                <marker date="1552136403956" expanded="true" signature="126:1079" ph="{...}" />
+                <marker date="1552136403956" expanded="true" signature="170:216" ph="{...}" />
+                <marker date="1552136403956" expanded="true" signature="290:353" ph="{...}" />
+                <marker date="1552136403956" expanded="true" signature="475:556" ph="{...}" />
+                <marker date="1552136403956" expanded="true" signature="643:714" ph="{...}" />
+                <marker date="1552136403956" expanded="true" signature="781:1073" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/LIstExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <marker date="1551536208469" expanded="false" signature="6:52" ph="..." />
+                <marker date="1551536208469" expanded="true" signature="95:900" ph="{...}" />
+                <marker date="1551536208469" expanded="true" signature="136:898" ph="{...}" />
+                <marker date="1551536208469" expanded="true" signature="221:557" ph="{...}" />
+                <marker date="1551536208469" expanded="true" signature="309:493" ph="{...}" />
+                <marker date="1551536208469" expanded="true" signature="351:479" ph="{...}" />
+                <marker date="1551536208469" expanded="true" signature="697:892" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="1530">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
-                <marker date="1551886312830" expanded="true" signature="6:46" ph="..." />
-                <marker date="1551886312830" expanded="true" signature="89:903" ph="{...}" />
-                <marker date="1551886312830" expanded="true" signature="126:901" ph="{...}" />
-                <marker date="1551886312830" expanded="true" signature="187:300" ph="{...}" />
-                <marker date="1551886312830" expanded="true" signature="354:463" ph="{...}" />
-                <marker date="1551886312830" expanded="true" signature="519:654" ph="{...}" />
-                <marker date="1551886312830" expanded="true" signature="717:895" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Counter.fs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-              <folding>
-                <marker date="1551773778115" expanded="true" signature="64:1384" ph=" = ..." />
-                <marker date="1551773778115" expanded="true" signature="102:354" ph=") = ..." />
-                <marker date="1551773778115" expanded="true" signature="368:1285" ph=" = ..." />
-                <marker date="1551773778115" expanded="true" signature="386:726" ph=" = { new Command&lt;Counter, int&gt;() with ..." />
-                <marker date="1551773778115" expanded="true" signature="743:1083" ph=" = { new Command&lt;Counter, int&gt;() with ..." />
-                <marker date="1551773778115" expanded="true" signature="1130:1285" ph=" with ..." />
-                <marker date="1551773778115" expanded="true" signature="1336:1384" ph=" = ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/CounterExperimental.fs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding>
-                <marker date="1551775492738" expanded="true" signature="71:1721" ph="= ..." />
-                <marker date="1551775492738" expanded="false" signature="82:119" ph="..." />
-                <marker date="1551775492738" expanded="true" signature="138:472" ph="?inital:int) = ..." />
-                <marker date="1551775492738" expanded="true" signature="220:290" ph=" = ..." />
-                <marker date="1551775492738" expanded="true" signature="494:1658" ph=" = ..." />
-                <marker date="1551775492738" expanded="true" signature="512:839" ph=" = ..." />
-                <marker date="1551775492738" expanded="true" signature="558:839" ph=" with ..." />
-                <marker date="1551775492738" expanded="true" signature="648:791" ph=" = ..." />
-                <marker date="1551775492738" expanded="true" signature="881:1267" ph=" = ..." />
-                <marker date="1551775492738" expanded="true" signature="927:1267" ph=" with ..." />
-                <marker date="1551775492738" expanded="true" signature="1004:1032" ph=" = ..." />
-                <marker date="1551775492738" expanded="true" signature="1077:1219" ph=" = ..." />
-                <marker date="1551775492738" expanded="true" signature="1311:1470" ph=" = ..." />
-                <marker date="1551775492738" expanded="true" signature="1353:1470" ph=" with ..." />
-                <marker date="1551775492738" expanded="true" signature="1516:1658" ph=" with ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/b4/a19b75f4/Machine`2.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpecTests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <marker date="1551768743592" expanded="false" signature="6:33" ph="..." />
-                <marker date="1551768743592" expanded="true" signature="78:320" ph="{...}" />
-                <marker date="1551768743592" expanded="true" signature="114:318" ph="{...}" />
-                <marker date="1551768743592" expanded="true" signature="170:312" ph="{...}" />
+                <marker date="1552135876644" expanded="false" signature="6:60" ph="..." />
+                <marker date="1552135876644" expanded="true" signature="103:2364" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="140:2362" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="201:314" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="368:477" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="533:668" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="731:909" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="961:1111" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="1166:1346" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="1400:1536" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="1592:1751" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="1796:2036" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="2095:2202" ph="{...}" />
+                <marker date="1552135876644" expanded="true" signature="2237:2356" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -136,14 +90,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/GenerationExample.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+            <state relative-caret-position="299">
+              <caret line="34" column="26" selection-start-line="30" selection-start-column="3" selection-end-line="34" selection-end-column="26" />
               <folding>
-                <marker date="1551886000258" expanded="true" signature="67:436" ph=" = ..." />
-                <marker date="1551886000258" expanded="true" signature="462:2153" ph=" = ..." />
-                <marker date="1551886000258" expanded="true" signature="2176:3288" ph=" = ..." />
-                <marker date="1551886000258" expanded="true" signature="3177:3255" ph="//  [0; 42; 63; 73; 78; 81; 82] ..." />
-                <marker date="1551886000258" expanded="true" signature="3293:3384" ph="//  [0; 41; 61; 71; 76; 79; 80] ..." />
+                <marker date="1552102438188" expanded="true" signature="67:982" ph=" = ..." />
+                <marker date="1552102438188" expanded="true" signature="1017:2696" ph=" = ..." />
+                <marker date="1552102438188" expanded="true" signature="2719:3832" ph=" = ..." />
+                <marker date="1552102438188" expanded="true" signature="3721:3799" ph="//  [0; 42; 63; 73; 78; 81; 82] ..." />
+                <marker date="1552102438188" expanded="true" signature="3837:3928" ph="//  [0; 41; 61; 71; 76; 79; 80] ..." />
               </folding>
             </state>
           </provider>
@@ -152,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/QuickStart.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="126">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding>
                 <marker date="1551534726025" expanded="false" signature="42:68" ph="..." />
                 <marker date="1551534726025" expanded="true" signature="95:1585" ph=" = ..." />
@@ -178,25 +132,89 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/ChoseProperties.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-858">
+            <state relative-caret-position="312">
+              <caret line="90" column="46" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
               <folding>
-                <marker date="1551530037255" expanded="false" signature="42:67" ph="..." />
-                <marker date="1551530037255" expanded="true" signature="105:1518" ph=" = ..." />
-                <marker date="1551530037255" expanded="true" signature="308:491" ph=" = ..." />
-                <marker date="1551530037255" expanded="true" signature="612:830" ph=" = ..." />
-                <marker date="1551530037255" expanded="true" signature="939:1197" ph=" = ..." />
-                <marker date="1551530037255" expanded="true" signature="1330:1518" ph=" = ..." />
-                <marker date="1551530037255" expanded="true" signature="1552:1752" ph=" = ..." />
-                <marker date="1551530037255" expanded="true" signature="1653:1752" ph="= ..." />
-                <marker date="1551530037255" expanded="true" signature="1784:3098" ph=" = ..." />
-                <marker date="1551530037255" expanded="true" signature="1917:2222" ph=" = ..." />
-                <marker date="1551530037255" expanded="true" signature="2327:2434" ph=" = ..." />
-                <marker date="1551530037255" expanded="true" signature="2505:2704" ph=" = ..." />
-                <marker date="1551530037255" expanded="true" signature="2795:3098" ph=" = ..." />
-                <marker date="1551530037255" expanded="true" signature="2798:3084" ph="//        let prop1 = ``adjacent paris from a list should be ordered`` |@ &quot;adjacent paris from a list should be ordered&quot; ..." />
+                <marker date="1552202083536" expanded="false" signature="42:67" ph="..." />
+                <marker date="1552202083536" expanded="true" signature="105:1518" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="308:491" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="612:830" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="939:1197" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="1330:1518" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="1552:1752" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="1653:1752" ph="= ..." />
+                <marker date="1552202083536" expanded="true" signature="1784:3098" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="1917:2222" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="2327:2434" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="2505:2704" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="2795:3098" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="2798:3084" ph="//        let prop1 = ``adjacent paris from a list should be ordered`` |@ &quot;adjacent paris from a list should be ordered&quot; ..." />
+                <marker date="1552202083536" expanded="true" signature="3153:3315" ph=" = ..." />
+                <marker date="1552202083536" expanded="true" signature="3225:3315" ph=" = ..." />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/DollarExample.fs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+              <folding>
+                <marker date="1552205731330" expanded="true" signature="62:915" ph=" = ..." />
+                <marker date="1552205731330" expanded="true" signature="105:442" ph="amount : int) = ..." />
+                <marker date="1552205731330" expanded="true" signature="236:285" ph=" = ..." />
+                <marker date="1552205731330" expanded="true" signature="322:378" ph=" = ..." />
+                <marker date="1552205731330" expanded="true" signature="414:442" ph=" = ..." />
+                <marker date="1552205731330" expanded="true" signature="515:632" ph=" = ..." />
+                <marker date="1552205731330" expanded="true" signature="717:915" ph=" = ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/ChooseProperties.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <marker date="1552202326191" expanded="false" signature="6:73" ph="..." />
+                <marker date="1552202326191" expanded="true" signature="116:944" ph="{...}" />
+                <marker date="1552202326191" expanded="true" signature="152:942" ph="{...}" />
+                <marker date="1552202326191" expanded="true" signature="190:236" ph="{...}" />
+                <marker date="1552202326191" expanded="true" signature="333:527" ph="{...}" />
+                <marker date="1552202326191" expanded="true" signature="618:733" ph="{...}" />
+                <marker date="1552202326191" expanded="true" signature="819:936" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/DollarExample.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="25" column="9" selection-start-line="15" selection-start-column="6" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <marker date="1552205858071" expanded="true" signature="63:1308" ph="{...}" />
+                <marker date="1552205858071" expanded="true" signature="96:1306" ph="{...}" />
+                <marker date="1552205858071" expanded="true" signature="183:323" ph="{...}" />
+                <marker date="1552205858071" expanded="true" signature="415:657" ph="{...}" />
+                <marker date="1552205858071" expanded="true" signature="694:1300" ph="{...}" />
+                <marker date="1552205858071" expanded="true" signature="776:838" ph="{...}" />
+                <marker date="1552205858071" expanded="true" signature="944:1014" ph="{...}" />
+                <marker date="1552205858071" expanded="true" signature="1078:1154" ph="{...}" />
+                <marker date="1552205858071" expanded="true" signature="1219:1290" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/FsCheck.XUnit.QuickStart.CSharp.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -205,29 +223,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/fb/2db41f93/SeqModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/21/df80099f/Check.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850DE-DCA6-A898-A745-0383DE50E85B/82/a28dd055/PropertyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/22/7ed7e7ef/Config.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/58/0e5088e2/Prop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/53/df5bd505/PropertyExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpec.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/LIstExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/ChooseProperties.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/Counter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.QuickStart/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/IncCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpecTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/fb/2db41f93/SeqModule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/21/df80099f/Check.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/d3/ea68719b/Arb.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850DE-DCA6-A898-A745-0383DE50E85B/82/a28dd055/PropertyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/ChoseProperties.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/CounterExperimental.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/QuickStart.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/22/7ed7e7ef/Config.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/bc/536a80b9/Gen.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/b4/a19b75f4/Machine`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/58/0e5088e2/Prop.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/53/df5bd505/PropertyExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/GenerationExample.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/CounterSpec.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/LIstExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/DollarExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/95/9f952ef2/Operators.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/Counter.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/DollarExample.fs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -242,7 +263,6 @@
         <option value="$PROJECT_DIR$/src/FsCheck.QuickStart.FSharp/ChoseProperties.fs" />
         <option value="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/QuickStart.fs" />
         <option value="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/LIstExtensions.cs" />
-        <option value="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs" />
         <option value="$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/Counter.cs" />
@@ -254,10 +274,15 @@
         <option value="$PROJECT_DIR$/src/FsCheck.QuickStart/Program.cs" />
         <option value="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/GenerationExample.fs" />
         <option value="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs" />
+        <option value="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs" />
+        <option value="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/ChoseProperties.fs" />
+        <option value="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/ChooseProperties.cs" />
+        <option value="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/DollarExample.fs" />
+        <option value="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/DollarExample.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
@@ -270,8 +295,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -282,13 +307,12 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="FsCheck.Practice" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="QuickStart" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ModelBasedTesting" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="FsCheck.Practice" type="24d0babc:SolutionExplorerModelNode" />
               <item name="QuickStart" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="FsCheck.QuickStart" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -316,7 +340,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/FsCheck.XUnit.QuickStart.CSharp.csproj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -406,12 +430,14 @@
       <workItem from="1551499140949" duration="14530000" />
       <workItem from="1551534190264" duration="1278000" />
       <workItem from="1551751328730" duration="10712000" />
-      <workItem from="1551880902093" duration="2724000" />
+      <workItem from="1551880902093" duration="2819000" />
+      <workItem from="1552098105773" duration="3175000" />
+      <workItem from="1552135194215" duration="7265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29286000" />
+    <option name="totallyTimeSpent" value="39821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,7 +452,7 @@
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24320458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -434,7 +460,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21843319" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29844558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -442,7 +468,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.21805556" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" visible="true" weight="0.29027778" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="14" weight="0.49375868" />
@@ -468,29 +494,68 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs</url>
-          <line>13</line>
-          <properties documentPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs" initialLine="13">
-            <startOffsets>
-              <option value="299" />
-            </startOffsets>
-            <endOffsets>
-              <option value="300" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs</url>
-          <line>21</line>
+          <line>22</line>
           <properties documentPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs" initialLine="20">
             <startOffsets>
-              <option value="462" />
+              <option value="476" />
             </startOffsets>
             <endOffsets>
-              <option value="463" />
+              <option value="477" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs</url>
+          <line>57</line>
+          <properties documentPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs" initialLine="57">
+            <startOffsets>
+              <option value="1345" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1346" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs</url>
+          <line>66</line>
+          <properties documentPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs" initialLine="66">
+            <startOffsets>
+              <option value="1535" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1536" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs</url>
+          <line>85</line>
+          <properties documentPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs" initialLine="85">
+            <startOffsets>
+              <option value="1996" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2026" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs</url>
+          <line>94</line>
+          <properties documentPath="$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs" initialLine="95">
+            <startOffsets>
+              <option value="2201" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2202" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -554,22 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/LIstExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <marker date="1551536208469" expanded="false" signature="6:52" ph="..." />
-            <marker date="1551536208469" expanded="true" signature="95:900" ph="{...}" />
-            <marker date="1551536208469" expanded="true" signature="136:898" ph="{...}" />
-            <marker date="1551536208469" expanded="true" signature="221:557" ph="{...}" />
-            <marker date="1551536208469" expanded="true" signature="309:493" ph="{...}" />
-            <marker date="1551536208469" expanded="true" signature="351:479" ph="{...}" />
-            <marker date="1551536208469" expanded="true" signature="697:892" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.FSharp.Testing/UnitTest1.cs" />
     <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/UnitTest1.cs" />
     <entry file="file://$PROJECT_DIR$/src/FsCheck.ModelBased.CSharp.Testing/Counter.cs">
@@ -627,6 +676,13 @@
             <marker date="1551752901904" expanded="true" signature="107:400" ph="{...}" />
             <marker date="1551752901904" expanded="true" signature="171:291" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/bc/536a80b9/Gen.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="139" column="25" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -702,32 +758,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <marker date="1551536329476" expanded="false" signature="6:52" ph="..." />
-            <marker date="1551536329476" expanded="true" signature="95:856" ph="{...}" />
-            <marker date="1551536329476" expanded="true" signature="126:849" ph="{...}" />
-            <marker date="1551536329476" expanded="true" signature="245:326" ph="{...}" />
-            <marker date="1551536329476" expanded="true" signature="413:484" ph="{...}" />
-            <marker date="1551536329476" expanded="true" signature="551:843" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5BE850D9-753E-E004-A745-0383D950E85B/bc/536a80b9/Gen.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17738">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/QuickStart.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="126">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
             <marker date="1551534726025" expanded="false" signature="42:68" ph="..." />
             <marker date="1551534726025" expanded="true" signature="95:1585" ph=" = ..." />
@@ -748,54 +782,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/ChoseProperties.fs">
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/FsCheck.XUnit.QuickStart.CSharp.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/GenerationExample.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858">
+        <state relative-caret-position="299">
+          <caret line="34" column="26" selection-start-line="30" selection-start-column="3" selection-end-line="34" selection-end-column="26" />
           <folding>
-            <marker date="1551530037255" expanded="false" signature="42:67" ph="..." />
-            <marker date="1551530037255" expanded="true" signature="105:1518" ph=" = ..." />
-            <marker date="1551530037255" expanded="true" signature="308:491" ph=" = ..." />
-            <marker date="1551530037255" expanded="true" signature="612:830" ph=" = ..." />
-            <marker date="1551530037255" expanded="true" signature="939:1197" ph=" = ..." />
-            <marker date="1551530037255" expanded="true" signature="1330:1518" ph=" = ..." />
-            <marker date="1551530037255" expanded="true" signature="1552:1752" ph=" = ..." />
-            <marker date="1551530037255" expanded="true" signature="1653:1752" ph="= ..." />
-            <marker date="1551530037255" expanded="true" signature="1784:3098" ph=" = ..." />
-            <marker date="1551530037255" expanded="true" signature="1917:2222" ph=" = ..." />
-            <marker date="1551530037255" expanded="true" signature="2327:2434" ph=" = ..." />
-            <marker date="1551530037255" expanded="true" signature="2505:2704" ph=" = ..." />
-            <marker date="1551530037255" expanded="true" signature="2795:3098" ph=" = ..." />
-            <marker date="1551530037255" expanded="true" signature="2798:3084" ph="//        let prop1 = ``adjacent paris from a list should be ordered`` |@ &quot;adjacent paris from a list should be ordered&quot; ..." />
+            <marker date="1552102438188" expanded="true" signature="67:982" ph=" = ..." />
+            <marker date="1552102438188" expanded="true" signature="1017:2696" ph=" = ..." />
+            <marker date="1552102438188" expanded="true" signature="2719:3832" ph=" = ..." />
+            <marker date="1552102438188" expanded="true" signature="3721:3799" ph="//  [0; 42; 63; 73; 78; 81; 82] ..." />
+            <marker date="1552102438188" expanded="true" signature="3837:3928" ph="//  [0; 41; 61; 71; 76; 79; 80] ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/GenerationExample.fs">
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/QuickStart.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+        <state relative-caret-position="246">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
-            <marker date="1551886000258" expanded="true" signature="67:436" ph=" = ..." />
-            <marker date="1551886000258" expanded="true" signature="462:2153" ph=" = ..." />
-            <marker date="1551886000258" expanded="true" signature="2176:3288" ph=" = ..." />
-            <marker date="1551886000258" expanded="true" signature="3177:3255" ph="//  [0; 42; 63; 73; 78; 81; 82] ..." />
-            <marker date="1551886000258" expanded="true" signature="3293:3384" ph="//  [0; 41; 61; 71; 76; 79; 80] ..." />
+            <marker date="1552136403956" expanded="true" signature="6:52" ph="..." />
+            <marker date="1552136403956" expanded="true" signature="95:1086" ph="{...}" />
+            <marker date="1552136403956" expanded="true" signature="126:1079" ph="{...}" />
+            <marker date="1552136403956" expanded="true" signature="170:216" ph="{...}" />
+            <marker date="1552136403956" expanded="true" signature="290:353" ph="{...}" />
+            <marker date="1552136403956" expanded="true" signature="475:556" ph="{...}" />
+            <marker date="1552136403956" expanded="true" signature="643:714" ph="{...}" />
+            <marker date="1552136403956" expanded="true" signature="781:1073" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/ChoseProperties.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="90" column="46" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+          <folding>
+            <marker date="1552202083536" expanded="false" signature="42:67" ph="..." />
+            <marker date="1552202083536" expanded="true" signature="105:1518" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="308:491" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="612:830" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="939:1197" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="1330:1518" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="1552:1752" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="1653:1752" ph="= ..." />
+            <marker date="1552202083536" expanded="true" signature="1784:3098" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="1917:2222" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="2327:2434" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="2505:2704" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="2795:3098" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="2798:3084" ph="//        let prop1 = ``adjacent paris from a list should be ordered`` |@ &quot;adjacent paris from a list should be ordered&quot; ..." />
+            <marker date="1552202083536" expanded="true" signature="3153:3315" ph=" = ..." />
+            <marker date="1552202083536" expanded="true" signature="3225:3315" ph=" = ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/GeneratorExamples.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        <state relative-caret-position="1530">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
-            <marker date="1551886312830" expanded="true" signature="6:46" ph="..." />
-            <marker date="1551886312830" expanded="true" signature="89:903" ph="{...}" />
-            <marker date="1551886312830" expanded="true" signature="126:901" ph="{...}" />
-            <marker date="1551886312830" expanded="true" signature="187:300" ph="{...}" />
-            <marker date="1551886312830" expanded="true" signature="354:463" ph="{...}" />
-            <marker date="1551886312830" expanded="true" signature="519:654" ph="{...}" />
-            <marker date="1551886312830" expanded="true" signature="717:895" ph="{...}" />
+            <marker date="1552135876644" expanded="false" signature="6:60" ph="..." />
+            <marker date="1552135876644" expanded="true" signature="103:2364" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="140:2362" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="201:314" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="368:477" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="533:668" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="731:909" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="961:1111" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="1166:1346" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="1400:1536" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="1592:1751" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="1796:2036" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="2095:2202" ph="{...}" />
+            <marker date="1552135876644" expanded="true" signature="2237:2356" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/LIstExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <marker date="1551536208469" expanded="false" signature="6:52" ph="..." />
+            <marker date="1551536208469" expanded="true" signature="95:900" ph="{...}" />
+            <marker date="1551536208469" expanded="true" signature="136:898" ph="{...}" />
+            <marker date="1551536208469" expanded="true" signature="221:557" ph="{...}" />
+            <marker date="1551536208469" expanded="true" signature="309:493" ph="{...}" />
+            <marker date="1551536208469" expanded="true" signature="351:479" ph="{...}" />
+            <marker date="1551536208469" expanded="true" signature="697:892" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/ChooseProperties.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <marker date="1552202326191" expanded="false" signature="6:73" ph="..." />
+            <marker date="1552202326191" expanded="true" signature="116:944" ph="{...}" />
+            <marker date="1552202326191" expanded="true" signature="152:942" ph="{...}" />
+            <marker date="1552202326191" expanded="true" signature="190:236" ph="{...}" />
+            <marker date="1552202326191" expanded="true" signature="333:527" ph="{...}" />
+            <marker date="1552202326191" expanded="true" signature="618:733" ph="{...}" />
+            <marker date="1552202326191" expanded="true" signature="819:936" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.FSharp/DollarExample.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <marker date="1552205731330" expanded="true" signature="62:915" ph=" = ..." />
+            <marker date="1552205731330" expanded="true" signature="105:442" ph="amount : int) = ..." />
+            <marker date="1552205731330" expanded="true" signature="236:285" ph=" = ..." />
+            <marker date="1552205731330" expanded="true" signature="322:378" ph=" = ..." />
+            <marker date="1552205731330" expanded="true" signature="414:442" ph=" = ..." />
+            <marker date="1552205731330" expanded="true" signature="515:632" ph=" = ..." />
+            <marker date="1552205731330" expanded="true" signature="717:915" ph=" = ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsCheck.XUnit.QuickStart.CSharp/DollarExample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="9" selection-start-line="15" selection-start-column="6" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <marker date="1552205858071" expanded="true" signature="63:1308" ph="{...}" />
+            <marker date="1552205858071" expanded="true" signature="96:1306" ph="{...}" />
+            <marker date="1552205858071" expanded="true" signature="183:323" ph="{...}" />
+            <marker date="1552205858071" expanded="true" signature="415:657" ph="{...}" />
+            <marker date="1552205858071" expanded="true" signature="694:1300" ph="{...}" />
+            <marker date="1552205858071" expanded="true" signature="776:838" ph="{...}" />
+            <marker date="1552205858071" expanded="true" signature="944:1014" ph="{...}" />
+            <marker date="1552205858071" expanded="true" signature="1078:1154" ph="{...}" />
+            <marker date="1552205858071" expanded="true" signature="1219:1290" ph="{...}" />
           </folding>
         </state>
       </provider>

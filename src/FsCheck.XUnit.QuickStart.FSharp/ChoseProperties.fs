@@ -83,5 +83,11 @@ module HardToProveEasyToVerify =
 //        let prop2 = ``concatting the elements of a string split by commas recreates the original string`` |@ "a sorted list has some contents as the original list"
 
         true
-//        prop1 .&. prop2    
+//        prop1 .&. prop2
+
+module SomethingNeverChange =
+    let ``sort should have same length as original`` (aList:int list) =
+        let sorted = aList |> List.sort 
+        List.length sorted = List.length aList
+
     
